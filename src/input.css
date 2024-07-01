@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-sky-100;
+}
+.header {
+  @apply w-full min-h-[75px] bg-[#5da5a4] bg-[url("../images/bg-header-desktop.svg")]  bg-repeat-x md:bg-repeat-round rotate-180  md:rotate-0 md:mb-8 mb-1;
+}
+.card {
+  @apply bg-white shadow-md shadow-black/20 p-6 rounded-md;
+}
+.card_featured {
+  @apply border-l-4 border-l-green-900;
+}
+.card_head {
+  @apply pb-4 md:pb-0  md:border-none border-b-2 border-gray-400;
+}
+.card_body {
+  @apply bg-gray-200 px-4 py-2 rounded-md hover:bg-green-900 text-green-500 hover:text-white font-bold cursor-pointer;
+}
+
+.btn {
+  @apply px-4 py-1 rounded-full text-white uppercase font-bold bg-green-900;
+}
